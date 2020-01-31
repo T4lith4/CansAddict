@@ -44,9 +44,8 @@ cansPrices = {
 
 			    can5: "Denon AH-D1200-Over-Ear R2700.00 (R405.00 VAT)",
 
-			    can6: "Grado SR60e Prestige Series R1400.00 (R210.00 VAT)"
-
-
+                can6: "Grado SR60e Prestige Series R1400.00 (R210.00 VAT)"
+                
 }
 
 /*Each product has it's details set as per the above Can's Prices object as well as it's own sessionStorage 

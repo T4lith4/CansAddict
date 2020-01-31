@@ -187,7 +187,7 @@ img.icon {
 /*Cross-Page Shared Styles*/
 .firstBigHeading {
     font-family: Poiret One, Abel, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bolder;
     text-align: center;
     text-shadow: 2px darkgrey;
@@ -197,28 +197,28 @@ img.icon {
 
 .bigHeading {
     font-family: Poiret One, Abel, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bolder;
     text-align: center;
-    text-shadow: 2px darkgrey;
-    
+    text-shadow: 2px darkgrey; 
 }
+
 .sellInfo {
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: lighter;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 70px;
-    padding-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
     color: #212529;
 }
 
 /*About Page Specific Styles*/
 #mission {
     font-family: Poiret One, Abel, sans-serif;
-    font-size: 50px;
+    font-size: 15px;
     font-weight: bolder;
     text-align: center;
     text-shadow: 2px darkgrey;
@@ -227,21 +227,21 @@ img.icon {
 
 .missionInfo {
   font-family: 'Lato', sans-serif;
-  font-size: 25px;
+  font-size: 15px;
   display: flex;
   justify-content: center;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   margin-top: 40px;
 }
 
 /*Testimony boxes styles*/
 .card-body {
-       color: lightgrey; 
-       font-size: 22px;
+       color:white; 
+       font-size: 14px;
        font-family: 'Lato', sans-serif;
        line-height: 30px;
        word-spacing: 1px;
-       background-image: url(images/leather.jpg);
+      
        background-size: contain;
        border-radius: 5px 5px 5px 5px;
        box-shadow: 2px 0px 2px 2px rgba(0,0,0,0.4);
@@ -249,12 +249,15 @@ img.icon {
                         1px -1px 0 #000,
                        -1px 1px 0 #000,
                         1px 1px 0 #000;
+    border: 1px solid red;
 }
 
 #testimony-section {
   display: flex;
   justify-content:center;
   margin-right: 60px;
+  border: 1px solid red;
+
 }
 
 .testimony-box {
@@ -262,30 +265,36 @@ img.icon {
   padding-top: 50px;
   padding-bottom: 50px;
   margin-left: 60px;
+  border: 1px solid red;
+
 }
 
 .card img {
-  padding-left: 30px;
+ 
   padding-right: 10px;
   padding-top:30px;
-  width: 150px;
+  width: 250px;
+  height: 300px;
   border: 1px white;
+  
 }
 
 .card-title {
   font-family: Poiret One, Abel, sans-serif;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: bold;
   text-shadow:   -1px -1px 0 #000,
                   1px -1px 0 #000,
                  -1px 1px 0 #000,
                   1px 1px 0 #000;
+                  border: 1px solid red;
+
 }
 
 /*Products Page Specific Styles */
 .container p {
   font-family: Poiret One, Abel, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight:bold;
   margin:0px;
 }
@@ -394,38 +403,49 @@ a.moreButton:hover {
 /*Footer Stlying*/
 #footer-section {
   padding-top: 20px;
-  background-color: #1B1919;
+  background-image: url(https://www.photohdx.com/images/2015/10/black-leather-texture-background.jpg);
+  background-size: 4000px 100px;
   color: white;
-  min-width: 100%;
   display: inline-block;
   text-align: center;
-  margin-bottom: -10px;
   box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.4);
-}
-
-#footer-section p {
+  position: fixed;
+  left: 0;
+  right:0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: lighter;
   padding-top: 20px;
   padding-bottom: 25px;
-  padding-left: 55px;
-  font-family: calibri;
-  background-color: #1B1919;
-  float:left;
-  width: 70%;
-  box-shadow: 3px grey;
+  text-shadow:   -1px -1px 0 #000,
+  1px -1px 0 #000,
+ -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 
 #icons {
-  padding-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 25px;
   margin-right:140px;
   background-color: #1B1919;
   float:right;
   opacity: 0.7; /*Second image/s with filtering*/
+  border: 1px solid red;
 }
 
 .icon {
   padding-right: 20px;
-  width: 60px;
+  width: 60px;  
 }
+
+#icons a{
+  border: 1px solid red;
+  padding-right: 20px;
+}
+
+
 
 
 
