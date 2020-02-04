@@ -112,6 +112,7 @@ a.navbar-brand {
   font-family: Righteous, cursive;
   font-size: 30px;
   background-color: #F8F8F8;
+  margin-right: 50px; 
 }
 .nav-item img {
  margin-top: 10px;
@@ -124,18 +125,6 @@ a.navbar-brand {
    font-size: 18px;
    margin-top:14px;
    margin-right: 10px;
-}
-
-/*Phone icon and number styling*/
-#call {
-  margin-left: 80px;
-  margin-right: 20px; 
-}
-
-#call p, #email p {
-  margin-top:20px;
-  float:right;
-  font-size: 19px;
 }
 
 #call img  {
@@ -155,6 +144,8 @@ a.navbar-brand {
 
 #social-media {
   margin-left: 120px;
+  display:flex;
+  justify-content: center;
 }
 
 img.icon {
@@ -365,6 +356,7 @@ a.moreButton:hover {
   font-size: 30px;
   font-weight: bold;
   padding-left: 50px;
+  margin-top: 50px;
 }
 
 #beats {
@@ -374,7 +366,7 @@ a.moreButton:hover {
     margin-top: 50px;
     margin-bottom: 30px;
     width: 35%;
-    height: 680px;
+    height: 400px;
     border: 2px solid darkgrey;
 }
 
